@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 public class P7 {
-      public static void main(String[] args) {
-        
-           Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
+    public static void main(String[] args) {
 
-        int star=1;
-        int space=num-1;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
 
-        for(int i=1;i<=num;i++){
+        int star = 1;
+        int space = num - 1;
 
-            for (int j = 1; j <=space; j++) {
+        for (int i = 1; i <= num; i++) {
+
+            for (int j = 1; j <= space; j++) {
                 System.out.print(" ");
             }
 
-            for (int j = 1; j <=star; j++) {
+            for (int j = 1; j <= star; j++) {
                 System.out.print("* ");
             }
             space--;
